@@ -24,9 +24,9 @@ selectShape = (shapeName) => {
           <div>Selected: <span> {this.state.selectedShape} </span> </div>
         </div>
         <div className="shape-list">
-          <Shape shape="square" selectShape={this.state.selectShape}/>
-          <Shape shape="triangle" selectShape={this.state.selectShape}/>
-          <Shape shape="circle" selectShape={this.state.selectShape}/>
+          <Shape shape="square" selectShape={this.selectShape}/>
+          <Shape shape="triangle" selectShape={this.selectShape}/>
+          <Shape shape="circle" selectShape={this.selectShape}/>
 
         </div>
       </div>
